@@ -1,0 +1,204 @@
+.header
+{
+	background: #2e898a;
+	width: 100%;
+}
+.top
+{
+	width: 100%;
+	background: #4e5944;
+	height: 50px;
+	position: relative;
+}
+.br
+{
+	background: #2e898a;
+	height: 100px;
+	width: 1000px;
+	margin: 0px auto;
+}
+.menu
+{
+	width: 70%;
+	float: right;
+	margin-top: 50px;
+}
+	.menu ul
+	{
+		list-style: none;
+		width: 1000px;
+		margin: 0px auto;
+	}
+		.menu ul li
+		{
+			float: left;
+		}
+			.menu ul li a
+			{
+				color: white;
+				padding: 20px 15px;
+				text-decoration: none;
+			}
+.logo img
+{
+	width: 28%;
+	float: left;
+	position: absolute;
+	top: 20px;
+	margin-left: 20px;
+}
+.ct1
+{
+	width: 100%;
+	background: #e2e2e2;
+}
+.ct1_1
+{
+	width: 1000px;
+	margin: 0px auto;
+	padding-top: 10px;
+}
+.left
+{
+	z-index: 999;
+	float: left;
+	height: 394px;
+	width: 306px;
+	background: #e9e9e9;
+	border: 1px solid #ddd;
+}
+	.left .p1
+	{
+		color: #525944;
+		font-size: 20px;
+		padding: 15px 20px 5px 20px;
+	}
+	.left .p2
+	{
+		color: #525944;
+		font-size: 18px;
+		padding: 0px 20px;
+		line-height: 1.5
+	}
+.right
+{
+	float: right;
+	width: 690px;
+}
+.ct2
+{
+	background: #eeeeee;
+}
+.ct2_2, .ct3_3
+{
+	width: 1000px;
+	margin: 0px auto;
+}
+.ct2_2-left
+{
+	width: 70%;
+	float: left;
+}
+	.ct2_2-left .title, .ct2_2-right .title
+	{
+		font-size: 25px;
+		margin-left: 10px;
+		color: #525944;
+		font-weight: bold;
+	}
+	.ct2_2-left p, .ct2_2-right p
+	{
+		margin-left: 10px;
+		color: #525944;
+	}
+.ct2_2-right
+{
+	width: 29%;
+	float: right;
+	border-left: 1px dotted #ccc;
+}
+.ct2_2-right .title
+{
+	font-weight: normal;
+}
+.ct3
+{
+	background: #e2e2e2;
+}
+	.ct3 .title
+	{
+		font-size: 30px;
+		font-weight: bold;
+		padding: 20px;
+		color: #525944;
+	}
+.ct3_3-list
+{
+	width: 200px;
+	float: left;
+	padding: 24px;
+}
+	.ct3_3-list img
+	{
+		border: 1px solid #ccc;
+	}
+	.ct3_3-list h3
+	{
+		color: #525944;
+	}
+	.ct3_3-list p
+	{
+		line-height: 1.5;
+    	color: #525944;
+	}
+	.ct3_3-list button
+	{
+		padding: 7px 10px;
+		background: #5e5e5e;
+		color: white;
+	}
+.footer
+{
+	width: 100%;
+	background: #287b7b;
+}
+.ft-content
+{
+	width: 1000px;
+	margin: 0px auto;
+}
+.ct
+{
+	width: 300px;
+	float: left;
+	padding: 10px;
+	height: 100%;
+	border-right: 1px solid #ccc;
+}
+	.ct h5
+	{
+		margin: 0px;
+		color: white;
+		padding-top:20px;
+		font-weight: normal;
+	}
+	.ct p
+	{
+		color: #e2e2e2;
+		font-weight: normal;
+		padding: 5px;
+		line-height: 1.5;
+	}
+	.ct button
+	{
+		padding: 7px 20px;
+		width: 100%;
+		background: #5e5e5e;
+		color: white;
+	}
+.cn
+{
+	color: white;
+	float: right;
+	margin: 20px;
+}

@@ -1,0 +1,605 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.width-1000 {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+@font-face {
+    src : url('../fonts/raleway/Raleway-ExtraBold.ttf');
+    font-family: "Raleway-ExtraBold"
+}
+
+@font-face {
+    src : url('../fonts/raleway/Raleway-ExtraLight.ttf');
+    font-family: "Raleway-ExtraLight"
+}
+
+@font-face {
+    src : url('../fonts/raleway/Raleway-Regular.ttf');
+    font-family: "Raleway"
+}
+
+
+
+#container {
+    background: #fff;
+}
+#wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+#header {
+    margin: 0 auto;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 22px;
+}
+#header-top {
+    overflow: hidden;
+    padding: 16px 0;
+    margin-top: 20px;
+    width: 1000px;
+    margin: 0 auto;
+}
+#header-top .left {
+    float: left;
+    width: 500px;
+    padding-top: 18px;
+}
+
+#header-top .right {
+    float: right;
+    margin-top: 15px;
+}
+
+#header-top .logo {
+    position: absolute;
+    top: 7px;
+    left: 40%;
+}
+#header-top .logo > a {
+    display: block;
+}
+#header-top .left > ul {
+    list-style: none;
+}
+#header-top .left > ul li {
+    float: left;
+}
+#header-top .left > ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #707070;
+    padding-right: 8px;
+    padding-left: 5px;
+    font-family: "Raleway";
+    font-size: 13px;
+    cursor: pointer;
+}
+
+#header-top .right ul {
+    list-style: none;
+}
+#header-top .right ul li {
+    float: left;
+}
+#header-top .right ul li a {
+    display: inline-block;
+    font-family: "Raleway";
+    text-decoration: none;
+    color: #707070;
+    font-size: 13px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+#header-top .right .link-shopping-cart {
+    margin-top: -17px;
+    position: relative;
+}
+#header-top .right .link-shopping-cart .price-cart {
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "Raleway-ExtraBold";
+    position: relative;
+    top: -10px;
+}
+#header-top .right .link-shopping-cart .number-item-cart {
+    position: absolute;
+    font-weight: bold;
+    font-size: 10px;
+    color: #fff;
+    left: 45px;
+    top: 2px;
+}
+
+/* Navigation */
+#nav {
+    border-bottom: 3px solid #ccc;
+}
+#nav > ul {
+    width: 1000px;
+    list-style: none;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#nav > ul li {
+    float: left;
+}
+#nav > ul li a {
+    display: block;
+    text-decoration: none;
+    color: #4a4a4a;
+    font-family: "Raleway-ExtraBold";
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 16px 32px 13px 0;
+    cursor: pointer;
+}
+
+#nav .form-search {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-left: 25px;
+}
+#nav .form-search .icon-search {
+    margin-left: 10px;
+    color: #c1c1c1;
+}
+#nav .form-search .input-search {
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 10px;
+    color: #6d6d6d;
+}
+
+
+.nav-c
+{
+    border-bottom: 5px solid #ffbb00; 
+    background: #f5f6f1;
+}
+.nav-c > ul
+{
+    width: 1000px;
+    list-style: none;
+    margin: 0px auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.nav-c > ul li
+{
+    float: left;
+}
+.nav-c > ul li a
+{
+    color: #bcbcba;
+    font-family: "RalewayLight";
+    padding-left: 15px;
+    padding-right: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+.nav-main ul li a span
+{
+    margin-left:20px;
+}
+.all
+{
+    color: #8f8f8f;
+    font-weight: bold;
+    margin-right: 600px;
+}
+
+
+.nav-c .icon-menu
+{
+    display: block;
+}
+.nav-c .icon-menu a
+{
+    text-decoration: none;
+    padding-right: 5px;
+}
+
+
+.nav-left
+{
+    width: 25%;
+    float: left;
+    margin-top: 30px;
+    border-right: 1px solid #ddd;
+    height: 1241px;
+}
+.nav-left ul.menu-1
+{
+    list-style: none;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+.nav-left ul.menu-1 > li
+{
+    padding: 7px 10px;
+    display: block;    
+}
+.nav-left ul.menu-1 > li > i
+{
+    color: #adadad;
+    padding-right: 5px;
+    text-align: center;
+}
+.nav-left ul.menu-1  > li > a
+{
+    text-decoration: none;
+    color: #262626;
+    font-weight: bold;
+}
+
+.nav-left ul.menu-1 li ul.menu-2
+{
+    display: none;
+}
+.nav-left ul.menu-1 li ul.menu-2 li
+{
+    list-style: none;
+    margin-left: 10px;
+    padding: 5px 10px;
+}
+.nav-left ul.menu-1 li ul.menu-2 li i
+{
+    font-size: 5px;
+    color: #cacaca;
+}
+.nav-left ul.menu-1 li ul.menu-2 li a
+{
+    font-weight: none;
+    color: #636363;
+    text-decoration: none;
+
+}
+.nav-left ul.menu-1 li:hover ul.menu-2
+{
+    display: block;
+    width: 100%;
+    padding: 4px 0;
+}
+.nav-left ul.menu-1 > li:hover > i
+{
+    background: #ffbb00; 
+    /*text-align: center;*/
+    width: 5px;
+    height: 5px;
+    padding: 1px 8px 11px 4px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    color: white;
+}
+.nav-left ul.menu-1 li ul.menu-2 li:hover > a,.nav-left ul.menu-1 li ul.menu-2 li:hover i
+{
+    color: #ffbb00;
+    font-weight: bold;
+}
+.nav-left ul.menu-1 li:hover .i-2
+{
+    background: #70543f;
+}
+
+
+/*wrapper*/
+
+#wrapper
+{
+    width: 1000px;
+    margin: 0px auto;
+}       
+.menu-wrapper > ul
+{
+    width: 1000px;
+    list-style: none;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-left: 25%;
+}
+.menu-wrapper > ul >li
+{
+    float: left;
+}
+.menu-wrapper > ul > li > a
+{
+    display: block;
+    text-decoration: none;
+    color: #8d8d8d;
+    font-family: "Raleway-ExtraBold";
+    padding: 16px 32px 13px 0;
+    cursor: pointer;
+}
+
+/*inner*/
+.inner
+{
+    width: 74%;
+    float: right;
+}
+.inner .banner
+{
+    width: 100%;
+    margin-top: 30px;
+    padding-bottom: 10px;
+    background: url('../images/banner.png') no-repeat center;
+    width: 690px;
+    height: 150px;
+    border-radius: 25px;
+    margin-bottom: 28px;
+}
+.inner .banner h1
+{
+    font-family: "RalewayLight";
+    display: inline;
+    color: #70543f;
+    text-transform: uppercase;
+    position: relative;
+    top: 60px;
+    left: 45px;
+}
+.inner .banner span
+{
+    float: right;
+    color: #70543f;
+    font-family: "RalewayLight";
+    margin-right: 330px;
+    margin-top: 55px;
+}
+.list-item .item-sp
+{
+    width: 30%;
+    float: left;
+    border-right: 1px solid #e9e9e9;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    padding-right: 5px;
+    position: relative;
+}
+.hot
+{
+    background: url('../images/icon-hot.png') no-repeat center;
+    position: absolute;
+    padding: 13px;
+    top: -9px;
+    right: 50px;
+}
+
+.new
+{
+    background: url('../images/icon-new.png') no-repeat center;
+    position: absolute;
+    padding: 13px;
+    top: -9px;
+    right: 21px;
+}
+.best
+{
+    
+    background: url('../images/icon-best.png') no-repeat center;
+    position: absolute;
+    padding: 13px;
+    top: -9px;
+    right: 21px;
+}
+
+
+
+/*item-sp*/
+.item-sp
+{
+    text-align: center;
+    float: left;
+    width: 24%;
+    border-right: 1px solid #ddd;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.a-item
+{
+    text-decoration: none; 
+}
+.item-sp .product 
+{
+    width: 205px;
+    height: 205px;
+    background: #999;
+    text-align: center;
+    line-height: 205px;
+    font-size: 20px;
+    color: #666;
+    margin: 0px 13px;
+}
+.item-sp .name-product 
+{
+    font-weight: bold;
+    font-family: "Raleway-ExtraBold";
+    margin: 20px 0px 5px 0px;
+}
+.item-sp .mt-product 
+{
+    font-style: italic;
+    color: #9c9c9c;
+}
+.item-sp .gia
+{
+    font-weight: bold;
+    color: #70543f;
+    padding-top: 5px;
+}
+
+
+ .load
+ {
+    width: 100%;
+    padding: 40px 0px;
+    height: 100px;
+    text-align: center;
+}
+.load hr
+{
+    padding-bottom: 50px;
+    margin-bottom: -50px;
+    border-top-width: 0px;
+    border-bottom-width: 2px;
+}
+.load p
+{
+    border: 1px solid #666;
+    display: inline;
+    text-align: center;
+    padding: 20px 50px;
+    border-radius: 50px;
+    z-index: 10px;
+    background: white;
+    font-size: 20px;
+    color: #666;
+    line-height: 100px;
+}
+
+/*top footer*/
+
+.top-footer
+{
+    width: 100%;
+    background: #f3f4ef;s
+}
+.top-footer .top-footer-content
+{
+    margin: 10px auto;
+    width: 1000px;
+    height: 130px;
+}
+.top-footer .top-footer-content .top-footer-logo
+{
+    float: left;
+    margin-top: -16px;
+
+}
+.top-footer .top-footer-content > p
+{
+    float: left;
+    padding: 46px;
+    font-size: 16px;
+    color: #70543f;
+    font-weight: bold;
+    font-family: "Raleway-ExtraBold";
+}
+.top-footer .top-footer-content .email
+{
+    width: 28%;
+    float: left;
+    margin-top: 46px;
+}
+.top-footer .top-footer-content .email input
+{
+    padding: 10px 15px;
+    border-radius: 20px;
+    outline: none;
+}
+
+/*footer*/
+#footer
+{
+    width: 100%;
+    margin-top: 50px;
+}
+#footer .footer-content
+{
+    width: 970px;
+    margin: 0px auto;
+}
+#footer .footer-content .item-footer
+{
+    width: 22%;
+    float: left;
+    margin-right: 25px;
+}
+#footer .footer-content .item-footer h3
+{
+    font-weight: bold;
+    color: #3f3f3f;
+    border-bottom: 1px solid #d6d6d6;
+    padding-bottom: 10px ;
+    margin-bottom: 20px;
+}
+#footer .footer-content .item-footer ul li
+{
+    list-style: none;
+}
+#footer .footer-content .item-footer ul li a
+{
+    text-decoration: none;
+    font-size: 15px;
+    color: #727272;
+    display: block;
+    padding: 5px 10px;
+}
+#footer .footer-content .item-footer ul li i
+{
+    padding: 0px 10px 0px 0px;
+}
+#footer .footer-content .item-footer p
+{
+    font-size: 15px;
+    color: #727272;
+    padding: 5px 10px 10px 10px;
+    margin-bottom: 5px;
+}
+#footer .footer-content .item-footer > a
+{
+    display: inline-block;
+    color: black;
+}
+#footer .footer-content .item-footer > a >i
+{
+    text-align: center;
+    padding: 10px;
+}
+   
+/*bottom-footer*/
+.bottom-footer
+{
+    width: 100%;
+    margin: 25px 0px;
+    border-top: 1px solid #d6d6d6;
+}
+.bottom-footer .bottom-footer-content
+{
+    width: 970px;
+    margin: 20px auto;
+}
+.bottom-footer .bottom-footer-content p
+{
+    float: left;
+    width: 40%;
+    color: #727272;
+    font-family: "Raleway-ExtraBold";
+}
+.bottom-footer .bottom-footer-content .align-right
+{
+    float: right;
+    width: 58%;
+    margin-right: 15px;
+}
+.bottom-footer .bottom-footer-content .align-right li
+{
+    float: right;
+    list-style: none;
+}
+.bottom-footer .bottom-footer-content .align-right li a
+{
+    text-decoration: none;
+    font-size: 15px;
+    color: #727272;
+    padding: 20px 15px;
+    display: block;
+}

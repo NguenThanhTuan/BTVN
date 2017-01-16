@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#container {
+    width: 300px;
+    margin: 50px auto;
+}
+#container .link-profile {
+    background: #1eb98f;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 13px;
+    border-radius: 5px;
+    font-family: arial;
+}
+#container .link-profile .icon-user {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: url('images/icon-user.png');
+    float: left;
+    margin-top: -3px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+#container .link-profile > span {
+    display: inline-block;
+    margin-top: 2px;
+}
+#container .link-profile .caret {
+    display: inline-block;
+    width: 15px;
+    height: 12px;
+    background: url('images/icon-caret.png');
+    margin-left: 100px
+}
+ul
+{
+    background: #1eb98f;
+    display: block;
+    color: #fff;
+    border-radius: 5px;
+    font-family: arial;
+    margin-top:12px;
+}
+li .m1, .m2, .m3
+{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    height: 45px;
+}
+.m1 .icon-setting
+{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: url(images/icon-setting.png);
+    float: left;
+    margin-top: 14px;
+    margin-right: 12px;
+    margin-left: 18px;
+}
+.m1 > span
+{
+    display: inline-block;
+    margin-top: 18px;
+}
+li .caret2
+{
+    display: block;
+    width: 11px;
+    height: 7px;
+    background: url(images/dro.png);
+    margin-left:241px;
+    margin-top: -43px;
+}
+.m2 .pass
+{
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    background: url(images/icon-lock.png);
+    float: left;
+    margin-top: 14px;
+    margin-right: 15px;
+    margin-left: 20px;
+}
+.m2 > span
+{
+    display: inline-block;
+    margin-top: 18px;
+}
+.m3 .log
+{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(images/icon-shutdown.png);
+    float: left;
+    margin-top: 14px;
+    margin-right: 17px;
+    margin-left: 22px;
+}
+.m3 > span
+{
+    display: inline-block;
+    margin-top: 17px;
+}
+ul
+{
+	display: none;
+}
+#container:hover ul
+{
+	display: block;
+}
+li:hover
+{
+    background: #1ea580;
+    border-radius: 5px; 
+}

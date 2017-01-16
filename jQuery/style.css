@@ -1,0 +1,88 @@
+.header 
+{
+    background-color: #363cf4;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+    width: 650px;
+    margin: 0px auto;
+}
+.header:after 
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#input 
+{
+    border: none;
+    width: 500px;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+    /*outline: none;*/
+}
+
+.add 
+{
+    padding: 10px;
+    padding-bottom: 7px;
+    width: 16%;
+    background: #d9d9d9;
+    color: black;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer; 
+}
+.add:hover 
+{
+    background-color: #5c8a8a;
+}
+
+ul 
+{
+    margin: 0 auto;
+    padding: 0;
+    width: 730px;
+}
+ul li 
+{
+    /*cursor: pointer;*/
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #ccccff;
+    font-size: 18px;
+    border-bottom: 1px solid #d9d9d9;
+    list-style: none;
+}
+ul li:hover 
+{
+    background: #ddd;
+}
+ul li.completed {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+}
+.remove
+{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 14px 10px 14px;
+    display: none;
+    cursor: pointer;
+}
+ul li:hover .remove
+{
+    display: block;
+}
+.checkbox
+{
+	margin-left: -20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+

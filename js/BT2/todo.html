@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>App todo</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="todo" class="header">
+        <h2 style="margin:5px; padding-bottom: 20px">To do list</h2>
+        <input type="text" id="input" onkeypress="runScript(event)" placeholder="To do list">
+        <!--<button onclick="newElement()" class="addBtn">Add</button>-->
+        <span onclick="newElement()" class="add">Add</span>
+    </div>
+    <ul id="list">
+        <li>abc</li>
+        <li class="checked">abc</li>
+        <li>abc</li>
+    </ul>
+    <script src="javascript.js"></script> 
+</body>
+</html>

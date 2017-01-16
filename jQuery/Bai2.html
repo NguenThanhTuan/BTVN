@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type="text/css">
+        .input-group
+        {
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .red
+        {
+            border: 1px solid red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-4" >
+                <form id="form" name ="dk" method="post">
+                   <div class="row col-md-6 well well-lg input-group">
+                       <div class="input-group ">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                            <input id="email" class="form-control" name="email" placeholder="Email" type="text" required autofocus="">
+                        </div>
+                        <div class=" input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                            <input id = "fullname" class="form-control" name="fullname" placeholder="Họ và tên" type="text"
+                            required autofocus="">
+                        </div>
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                            <input id = "tuoi" class="form-control" name="tuoi" placeholder="Tuổi" type="text"
+                            required autofocus="">
+                        </div>
+                        <div class="input-group">
+                            <button type="submit" class="btn btn-info">Submit</button>
+                        </div>
+                    </div>                
+                </form>
+            </div>
+        </div>
+    </div>
+    <p style="color: red"></p>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="jquery validate/jquery.validate.min.js"></script>
+    <script type="text/javascript">
+        /*$(document).ready(function(){
+            var validator = $("#form").validate({ 
+            rules: {   
+                email: { 
+                    required: true, 
+                    email: true
+                },
+                fullname: "required", 
+                tuoi: "required"
+            }, 
+            messages: { 
+                email: { 
+                    required: "Hãy nhập 1 địa chỉ email hợp lệ", 
+                    email:"Địa chỉ email không hợp lệ"
+                },
+                fullname: "Hãy điền tên đăng nhập.", 
+                tuoi: "Hãy điền tuổi"
+            }
+        }); 
+    })*/
+    $(function() 
+    {
+        var $email = $('#email');
+        var $fullname  = $('#fullname');
+        var $tuoi = $('#tuoi');
+
+        $('button').click(function(e) 
+        {
+            e.preventDefault();
+            if($email.val() == "" ) 
+            {
+                $email.addClass('red');
+                alert("Hãy nhập email");
+            } 
+            else 
+            {
+                $email.removeClass('red');
+            };
+            
+            if($fullname.val() == "" ) 
+            {
+                $fullname.addClass('red');
+                alert("Hãy nhập họ và tên");
+            }
+            else 
+            {
+                $fullname.removeClass('red');
+            };
+            
+            if($tuoi.val() == "" ) 
+            {
+                $tuoi.addClass('red');
+                alert("Hãy nhập tuổi");
+            }
+            else 
+            {
+                $tuoi.removeClass('red');
+            };
+        });
+    });
+
+    </script>
+
+</body>
+</html>
